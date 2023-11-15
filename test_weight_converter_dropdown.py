@@ -2,34 +2,6 @@ import unittest
 
 from weight_converter_dropdown import convert
 
-# conversions = {
-#     "g to Kg": 0.001,
-#     "g to Lb": 0.00220462,
-#     "g to Oz": 0.035274,
-#     "Kg to G": 1000,
-#     "Kg to Lb": 2.20462,
-#     "Kg to Oz": 35.274,
-#     "Oz to Lb": 0.0625,
-#     "Oz to Kg": 0.0283495,
-#     "Lb to Kg": 0.453592,
-#     "Lb to Oz": 16,
-# }
-
-
-# logic
-# if converted_weight == 0.0:
-#     return f"0 {conversion_info[0].split(' ')[-1]}"
-# elif converted_weight.is_integer():
-#     return round_num(converted_weight, 0)
-# elif converted_weight < 1:
-#     return round_num(converted_weight, 4)
-# elif converted_weight < 10:
-#     return round_num(converted_weight, 3)
-# elif converted_weight < 100:
-#     return round_num(converted_weight, 2)
-# else:
-#     return round_num(converted_weight, 0)
-
 
 class TestConvert(unittest.TestCase):
     def test_kg_to_lb(self):
